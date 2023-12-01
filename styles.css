@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+  }
+  
+  .intro{
+    max-height: 100vh;
+    overflow: hidden;
+  }
+  
+  .image_title{
+    position: relative;
+    padding-bottom: 56.25%;
+  }
+  .image{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .navbar-brand{
+    margin-left:30px;
+    padding:10px 30px;
+    background-color:cadetblue;
+    border-radius:100px;
+    color:#fff
+  }
+  
+  .navbar ul li a:hover{
+    background-color: #666;
+  }
+  
+  .contact{
+  color: #525151;
+  font-size: 26px;
+  margin-top: 240px;
+  }
+  
+  .working-hours {
+    position: absolute;
+    top: 300px;
+    right: 50px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .working-hours h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .working-hours ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .working-hours li {
+    font-size: 23px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  
+  .working-hours li strong {
+    font-weight: bold;
+  }
+  
+  .working-hours li span {
+    font-family: monospace;
+  }
+  
+  .menu {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    animation-name: flyInAnimation;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .menu-item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+  
+  .menu-item:last-child {
+    border-bottom: none;
+  }
+  
+  .item-name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .item-description {
+    color: #666;
+  }
+  
+  .item-price {
+    float: right;
+    font-weight: bold;
+  }
+  
+  @keyframes flyInAnimation {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+  }
+  
+  .fly-in-text_index{
+    color: #c4c4c4;
+    animation-name: flyInAnimation;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    position: absolute;
+    font-size: 24px;
+    top: 100px;
+    padding-left: 30px;
+    text-indent: 30px;
+  }
+  
